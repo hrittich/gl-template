@@ -1,0 +1,15 @@
+[placeholders.gl-major]
+type = "string"
+prompt = "Major OpenGL Version?"
+default = "4"
+
+[placeholders.gl-minor]
+type = "string"
+prompt = "Minor OpenGL Version?"
+default = "1"
+
+[placeholders.gl-profile]
+type = "string"
+prompt = "OpenGL Profile?"
+choices = ["Core", "Compatibility"]
+default = "Core"
